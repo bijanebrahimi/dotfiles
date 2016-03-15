@@ -1,1 +1,11 @@
-/home/bijan/.gitconfig
+[user]
+	name = bijan ebrahimy
+	email = bijanebrahimi@riseup.net
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	ls-files = ls-files -o --exclude-standard
+[push]
+	default = simple
+[pager]
+	show = diff-so-fancy | less --tabs=1,5 -R~
+	diff = diff-so-fancy | less --tabs=1,5 -R
